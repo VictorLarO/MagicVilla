@@ -457,7 +457,8 @@
       },
       "VillaDto": {
         "required": [
-          "nombre"
+          "nombre",
+          "tarifa"
         ],
         "type": "object",
         "properties": {
@@ -470,6 +471,14 @@
             "minLength": 1,
             "type": "string"
           },
+          "detalle": {
+            "type": "string",
+            "nullable": true
+          },
+          "tarifa": {
+            "type": "number",
+            "format": "double"
+          },
           "ocupantes": {
             "type": "integer",
             "format": "int32"
@@ -477,6 +486,14 @@
           "metrosCuadrados": {
             "type": "integer",
             "format": "int32"
+          },
+          "imagenUrl": {
+            "type": "string",
+            "nullable": true
+          },
+          "amenidad": {
+            "type": "string",
+            "nullable": true
           }
         },
         "additionalProperties": false
