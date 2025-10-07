@@ -28,14 +28,14 @@
     "Order": 0,
     "Parameters": [
       {
-        "Name": "villaDto",
-        "Type": "MagicVilla_API.Modelos.Dto.VillaDto",
+        "Name": "createDto",
+        "Type": "MagicVilla_API.Modelos.Dto.VillaCreateDto",
         "IsRequired": true
       }
     ],
     "ReturnTypes": [
       {
-        "Type": "MagicVilla_API.Modelos.Dto.VillaDto",
+        "Type": "MagicVilla_API.Modelos.Dto.VillaCreateDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
@@ -113,8 +113,8 @@
         "IsRequired": true
       },
       {
-        "Name": "villaDto",
-        "Type": "MagicVilla_API.Modelos.Dto.VillaDto",
+        "Name": "updateDto",
+        "Type": "MagicVilla_API.Modelos.Dto.VillaUpdateDto",
         "IsRequired": true
       }
     ],
