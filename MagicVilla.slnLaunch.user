@@ -1,0 +1,15 @@
+[
+  {
+    "Name": "WEB + API",
+    "Projects": [
+      {
+        "Path": "MagicVilla_API\\MagicVilla_API.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "MagicVilla_Web\\MagicVilla_Web.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]
